@@ -28,3 +28,7 @@ $ git reset --soft HEAD~
 ```
 $ git checkout -b <branch name>
 ```
+### 🔶 로컬 브랜치 삭제
+```
+$ git branch -D <branch name>
+```
