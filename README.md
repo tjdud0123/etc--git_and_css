@@ -23,3 +23,8 @@ $ git stash pop
 ```
 $ git reset --soft HEAD~
 ```
+
+### 🔶  브랜치 생성 + 체크아웃
+```
+$ git checkout -b <branch name>
+```
