@@ -32,3 +32,29 @@ $ git checkout -b <branch name>
 ```
 $ git branch -D <branch name>
 ```
+
+### 🔶 원격 브랜치 목록보기
+```
+$ git branch -r
+```
+
+### 🔶 브랜치 이름 바꾸기
+```
+$ git branch -m <branch name> <new branch name>
+```
+
+### 🔶 commit한 이전 코드 취소하기
+```
+$ git reset — hard HEAD^
+```
+
+### 🔶 코드는 살리고 commit만 취소하기
+```
+$ git reset — soft HEAD^
+```
+
+### 🔶 merge 취소하기
+```
+$ git reset — merge
+```
+
