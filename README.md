@@ -52,9 +52,17 @@ $ git reset — hard HEAD^
 ```
 $ git reset — soft HEAD^
 ```
+### 🔶 로컬에서 다른 branch merge 하기
+```
+$ git merge <branch name>
+```
 
 ### 🔶 merge 취소하기
 ```
 $ git reset — merge
 ```
 
+### 🔶 마지막 커밋 메세지 수정하기
+```
+$ git commit --amend -m "new msg"
+```
