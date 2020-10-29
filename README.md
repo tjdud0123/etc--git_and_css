@@ -28,19 +28,30 @@ $ git reset --soft HEAD~
 ```
 $ git checkout -b <branch name>
 ```
-### 🔶 로컬 브랜치 삭제
-```
-$ git branch -D <branch name>
-```
 
 ### 🔶 원격 브랜치 목록보기
 ```
 $ git branch -r
 ```
 
+### 🔶 모든 브랜치 목록보기
+```
+$ git branch -a
+```
+
 ### 🔶 브랜치 이름 바꾸기
 ```
 $ git branch -m <branch name> <new branch name>
+```
+
+### 🔶 로컬 브랜치 삭제
+```
+$ git branch -D <branch name>
+```
+
+### 🔶 원격 브랜치 삭제
+```
+$ git push origin --delete <branch name>
 ```
 
 ### 🔶 commit한 이전 코드 취소하기
