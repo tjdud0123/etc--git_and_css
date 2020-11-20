@@ -77,3 +77,8 @@ $ git reset — merge
 ```
 $ git commit --amend -m "new msg"
 ```
+
+### 🔶 commit을 취소하고 해당 파일들은 staged 상태로 워킹 디렉터리에 보존
+```
+git reset --soft HEAD^
+```
