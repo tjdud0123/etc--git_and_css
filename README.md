@@ -19,10 +19,6 @@ $ git checkout branch1
 ```
 $ git stash pop
 ```
-### 🔶  마지막 커밋을 취소하고 staged된 상태로 돌리고 싶을 때
-```
-$ git reset --soft HEAD~
-```
 
 ### 🔶  브랜치 생성 + 체크아웃
 ```
@@ -82,3 +78,35 @@ $ git commit --amend -m "new msg"
 ```
 git reset --soft HEAD^
 ```
+
+# css_memo
+css 메모
+
+### 🔶 비율계산
+[참고](https://www.w3schools.com/howto/howto_css_aspect_ratio.asp)
+```
+div {
+  background-img: url('url');
+  width: 100%;
+  padding-top: 75%; /* 4:3 Aspect Ratio (divide 3 by 4 = 0.75) */
+}
+```
+
+### 🔶 position absolute 상태에서 중앙정렬
+[참고](https://yuddomack.tistory.com/entry/div-%EA%B0%80%EC%9A%B4%EB%8D%B0-%EC%A0%95%EB%A0%ACfeat-position-absolute)
+```
+#parent {
+  position: relative;
+  width: 100%;
+  padding-top: 100%; // 1:1 비율
+}
+
+#child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+```
+
+
