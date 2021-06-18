@@ -109,7 +109,9 @@ div {
 }
 ```
 ### 🔶 \n 으로 들어온것 html에서 자동 한줄띄기 처리
+```css
 .text-block {
     white-space: pre; // or pre-line
 }
-https://stackoverflow.com/questions/54979287/replace-n-to-new-line-on-vuejs
+```
+[참고](https://stackoverflow.com/questions/54979287/replace-n-to-new-line-on-vuejs)
