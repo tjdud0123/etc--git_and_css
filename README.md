@@ -108,5 +108,8 @@ div {
   transform: translate(-50%, -50%);
 }
 ```
-
-
+### 🔶 \n 으로 들어온것 html에서 자동 한줄띄기 처리
+.text-block {
+    white-space: pre; // or pre-line
+}
+https://stackoverflow.com/questions/54979287/replace-n-to-new-line-on-vuejs
