@@ -115,3 +115,9 @@ div {
 }
 ```
 [참고](https://stackoverflow.com/questions/54979287/replace-n-to-new-line-on-vuejs)
+
+### 🔶 android 브라우저 등 디바이스마다 픽셀계산이 다를 수 있어 isBottom 계산시 보충 값을 설정해 주어야함 (소수점 보완)
+```js
+const isBottom = (this.$listCont.scrollTop()+2) + this.$listCont.innerHeight() >= this.lastScrollH;
+const isBottom = (this.$listCont.scrollTop()+2) + this.$listCont.innerHeight() >= this.$listCont[0].scrollHeight;
+```
