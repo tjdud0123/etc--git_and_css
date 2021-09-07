@@ -79,6 +79,12 @@ $ git commit --amend -m "new msg"
 git reset --soft HEAD^
 ```
 
+### 🔶 원격 머지 commit을 취소하고 올리고 싶을때
+```
+git revert -m 1 <commit number> // 기존 브랜치 기준
+git revert -m 2 <commit number> // 머지시킨 
+```
+
 # css_memo
 css 메모
 
